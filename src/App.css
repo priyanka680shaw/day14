@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(101, 146, 101);
+  text-align: center;
+}
+
+.mainContainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.buggetContainer{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(101, 146, 101);
+  padding: 20px 0px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.buggetContainer>button{
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 8px;
+}
+
+.expenceAddContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(30, 142, 152);
+  padding: 40px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+
+label{
+  color: white;
+  font-size: 30px;
+}
+
+input{
+  width: 300px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.expenceAddContainer>button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.expenceAddContainer>button:hover{
+  background-color: rgb(111, 194, 111);
+}
+
+.showDataContainer{
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(30, 142, 152);
+  padding: 40px;
+  border-radius: 10px;
+  margin: 30px 0px;
+  flex-direction: column;
+}
+
+.showDataInnerContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(89, 138, 145);
+  padding: 40px;
+  border-radius: 10px;
+  margin: 30px 0px;
+  flex-direction: column;
+  box-shadow: 2px 2px 7px 2px white;
+}
+h3{
+  padding: 10px 0px;
+  color: white;
+  font-size: 25px;
+
+}
